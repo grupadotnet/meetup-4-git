@@ -1,0 +1,7 @@
+C:\Users\Jarek\Desktop\.NET PK\meetup-4-git\obj\Debug\net5.0\meet_up_3.csproj.AssemblyReference.cache
+C:\Users\Jarek\Desktop\.NET PK\meetup-4-git\obj\Debug\net5.0\meet_up_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jarek\Desktop\.NET PK\meetup-4-git\obj\Debug\net5.0\meet_up_3.AssemblyInfoInputs.cache
+C:\Users\Jarek\Desktop\.NET PK\meetup-4-git\obj\Debug\net5.0\meet_up_3.AssemblyInfo.cs
+C:\Users\Jarek\Desktop\.NET PK\meetup-4-git\obj\Debug\net5.0\meet_up_3.csproj.CoreCompileInputs.cache
+C:\Users\Jarek\Desktop\.NET PK\meetup-4-git\obj\Debug\net5.0\meet_up_3.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jarek\Desktop\.NET PK\meetup-4-git\obj\Debug\net5.0\meet_up_3.MvcApplicationPartsAssemblyInfo.cache
