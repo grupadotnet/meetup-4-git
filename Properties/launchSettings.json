@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "meetup_2_asp_net_core": {
+    "meetup_4_asp_net_core": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -1,6 +1,7 @@
-using meetup_2_asp_net_core.Models;
+using System.Collections.Generic;
+using meetup_4_asp_net_core.Models;
 
-namespace meetup_2_asp_net_core.Interfaces
+namespace meetup_4_asp_net_core.Interfaces
 {
     public interface ICommentsService
     {

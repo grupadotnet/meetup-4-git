@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using meetup_2_asp_net_core.Interfaces;
-using meetup_2_asp_net_core.Models;
+using meetup_4_asp_net_core.Interfaces;
+using meetup_4_asp_net_core.Models;
 
-namespace meetup_2_asp_net_core.Controllers
+namespace meetup_4_asp_net_core.Controllers
 {
     public class CommentsController : Controller
     {

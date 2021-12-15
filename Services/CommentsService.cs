@@ -1,7 +1,9 @@
-using meetup_2_asp_net_core.Models;
-using meetup_2_asp_net_core.Interfaces;
+using System;
+using System.Collections.Generic;
+using meetup_4_asp_net_core.Models;
+using meetup_4_asp_net_core.Interfaces;
 
-namespace meetup_2_asp_net_core.Services
+namespace meetup_4_asp_net_core.Services
 {
     class CommentsService : ICommentsService
     {

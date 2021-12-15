@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace meetup_2_asp_net_core.Models
+namespace meetup_4_asp_net_core.Models
 {
     public class NewCommentRequest
     {
@@ -8,6 +8,6 @@ namespace meetup_2_asp_net_core.Models
         [MaxLength(10)]
         [MinLength(0)]
         // [StringLength(100)]
-        public string Message { get; set; }
+        public string? Message { get; set; }
     }
 }
