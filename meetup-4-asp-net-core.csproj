@@ -7,4 +7,8 @@
     <RootNamespace>meetup_4_asp_net_core</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Data" />
+  </ItemGroup>
+
 </Project>
