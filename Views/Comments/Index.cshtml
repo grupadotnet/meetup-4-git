@@ -1,0 +1,28 @@
+@model IEnumerable<Comment>
+
+@{
+    ViewData["Title"] = "Komentarze";
+}
+
+<h1 style="margin: 50px 0px;">
+    Komentarze na stronie
+</h1>
+<p>Nisi ipsum Lorem culpa quis ullamco et proident ea culpa amet id aliqua exercitation. Proident officia magna ipsum id mollit velit elit laboris sint. Culpa labore minim labore nostrud adipisicing nostrud laborum ad est dolor sint consequat duis. Occaecat velit ex amet excepteur esse consectetur eu ex duis amet reprehenderit culpa. Incididunt deserunt mollit amet deserunt ad duis aliqua eiusmod veniam. Mollit eu occaecat aliquip aute minim eu aliquip minim id excepteur.</p>
+<a asp-controller="Home" asp-action="Index">Strona główna</a>
+
+@foreach (var comment in Model)
+{
+    <div style="margin-top: 50px;">
+        <i>@comment.AddedAt</i>
+        <hr />
+        @comment.Message
+    </div>
+}
+
+<form method="post" asp-controller="Comments" asp-action="Send" style="margin-top: 100px;">
+    <label>
+        Dodaj komentarz <br/>
+        <input name="Message" maxlength="10" placeholder="Treść komentarza" required />
+    </label>
+    <input type="submit" value="Dodaj" />
+</form>
